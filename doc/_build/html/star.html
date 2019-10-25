@@ -1,0 +1,392 @@
+
+
+<!doctype html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>恒星的物理参数 &mdash; naoctest-doc 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/bizstyle.js"></script>
+    <link rel="top" title="naoctest-doc 0.1 documentation" href="index.html" />
+    <link rel="prev" title="Welcome to naoctest-doc’s documentation!" href="index.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to naoctest-doc’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">naoctest-doc 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">恒星的物理参数</a><ul>
+<li><a class="reference internal" href="#id2">有效温度</a></li>
+<li><a class="reference internal" href="#id8">表面重力</a></li>
+<li><a class="reference internal" href="#id9">参考文献</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to naoctest-doc&#8217;s documentation!</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/star.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>恒星的物理参数<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>有效温度<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">用 Fe I 线的激发平衡，也就是不同低能级激发电势的 FeI 线给出的丰度一致。例如 Santos et al. 2004 <a class="footnote-reference" href="#santos2004" id="id3">[26]</a>, Santos et al. 2005 <a class="footnote-reference" href="#santos2005" id="id4">[27]</a>。这种方法的缺点是依赖于大气模型；受到 NLTE 效应的影响，特别是在贫金属星中；对米粒效应敏感。优点是不依赖于红化。</p>
+</li>
+<li><p class="first">拟合巴耳末线。例如 Fuhrmann et al. 1993 <a class="footnote-reference" href="#fuhrmann1993" id="id5">[15]</a>，Fuhrmann et al. 1994 <a class="footnote-reference" href="#fuhrmann1994" id="id6">[16]</a>，Barklem et al. 2002 <a class="footnote-reference" href="#barklem2002" id="id7">[6]</a>。缺点是依赖大气模型；都对米粒效应敏感。优点是都不依赖于红化。</p>
+</li>
+<li><p class="first">用颜色—有效温度的经验关系。通常采用以下公式进行拟合：</p>
+<div class="math">
+\[\theta_\mathrm{eff} = a_0 + a_1X + a_2X^2 + a_3X[\mathrm{Fe/H}] + a_4[\mathrm{Fe/H}] + a_5[\mathrm{Fe/H}]^2\]</div>
+</li>
+</ol>
+</div>
+<div class="section" id="id8">
+<h2>表面重力<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p>恒星的表面重力与质量、半径的关系为：</p>
+<div class="math">
+\[\log_{10}{g_*} = \log_{10}{\left(\frac{M_*}{M_\odot}\right)} - 2\log_{10}{\left(\frac{R_*}{R_\odot}\right)} + \log_{10}{g_\odot}\]</div>
+<p>恒星的表面重力与质量、有效温度的关系为：</p>
+<div class="math">
+\[\log_{10}{g}=\log_{10}{g_\odot}+\log_{10}\left(\frac{M}{M_\odot}\right)+4\log_{10}\left(\frac{T_{\mathrm{eff}}}{T_{\mathrm{eff},\odot}}\right)+0.4(M_{\mathrm{bol}}-M_{\mathrm{bol},\odot})\]</div>
+<p>其中 <em>M</em><sub>bol</sub> 是绝对热星等。</p>
+<p>如果表面重力是由三角视差测定的，三角视差（距离）测量的不确定性会直接影响表面重力的误差。由于</p>
+<div class="math">
+\[M_{\mathrm{bol}}=V_{\mathrm{mag}}+BC-5\log_{10}{d}+5-A_{\mathrm{V}}\]</div>
+<p>把距离与三角视差的关系 \ref{d_para} 式代入得到：</p>
+<div class="math">
+\[M_{\mathrm{bol}}=V_{\mathrm{mag}}+BC+5\log_{10}{\varpi}-10-A_{\mathrm{V}}\]</div>
+<p>因此</p>
+<div class="math">
+\[\frac{\partial\log_{10}{g}}{\partial\varpi}=\frac{2}{\varpi\ln10}\simeq0.87\frac{1}{\varpi}\]</div>
+<p>由上式可知，10% 的三角视差误差会导致表面重力大约 0.087 dex 的误差；15% 的测量误差会导致 0.13 dex 的误差；20% 的测量误差会导致 0.17 dex 的误差。</p>
+<table border="1" class="docutils" id="id10">
+<caption><span class="caption-text">Mass of central black hole</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col width="33%" />
+<col width="67%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><em>M</em><sub>BH</sub> (10 <sup>6</sup> Msun)</th>
+<th class="head">References</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>3.61 ± 0.32</td>
+<td>Eisenhauer et al. 2005</td>
+</tr>
+<tr class="row-odd"><td>4.1 ± 0.4</td>
+<td>Morris et al. 2012</td>
+</tr>
+<tr class="row-even"><td>5.76 <sup>+1.76</sup><sub>−1.26</sub></td>
+<td>Do et al. 2013</td>
+</tr>
+<tr class="row-odd"><td>4.0</td>
+<td>Fragione et al. 2017</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="#naoctest.subpack1.fitting.test" title="naoctest.subpack1.fitting.test"><code class="xref py py-obj docutils literal"><span class="pre">test</span></code></a>(a,&nbsp;b)</td>
+<td>This function adds a and b.</td>
+</tr>
+</tbody>
+</table>
+<span class="target" id="module-naoctest.subpack1.fitting"></span><dl class="class">
+<dt id="naoctest.subpack1.fitting.Fitting">
+<em class="property">class </em><code class="descclassname">naoctest.subpack1.fitting.</code><code class="descname">Fitting</code><a class="headerlink" href="#naoctest.subpack1.fitting.Fitting" title="Permalink to this definition">¶</a></dt>
+<dd><p>TEST class for least square fitting.</p>
+<p>xxxx a  a</p>
+<dl class="method">
+<dt id="naoctest.subpack1.fitting.Fitting.add_data">
+<code class="descname">add_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#naoctest.subpack1.fitting.Fitting.add_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add data.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="naoctest.subpack1.fitting.test">
+<code class="descclassname">naoctest.subpack1.fitting.</code><code class="descname">test</code><span class="sig-paren">(</span><em>a</em>, <em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#naoctest.subpack1.fitting.test" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function adds a and b.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>a (int or float): input parameter 1.
+b (int or float): input parameter 2.</dd>
+<dt>Returns:</dt>
+<dd>c: sum of a and b.</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="id9">
+<h2>参考文献<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<table class="docutils footnote" frame="void" id="allen1976" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td>Allen, C., 1976, <em>Astrophysical Quantities</em>, London: Athlone (3rd edition) <a class="reference external" href="http://adsabs.harvard.edu/abs/1976asqu.book.....A">ADScode: 1976asqu.book.....A</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="alonso1996" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[2]</td><td>Alonso et al., 1996, A&amp;A, 313, 873 <a class="reference external" href="http://adsabs.harvard.edu/abs/1996A%26A...313..873A">ADScode: 1996A%26A...313..873A</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="alonso1999" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[3]</td><td>Alonso et al., 1999, A&amp;AS, 140, 261 <a class="reference external" href="http://adsabs.harvard.edu/abs/1999A%26AS..140..261A">ADScode: 1999A%26AS..140..261A</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="alonso2001" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[4]</td><td>Alonso et al., 2001, A&amp;A, 376, 1039 <a class="reference external" href="http://adsabs.harvard.edu/abs/2001A%26A...376.1039A">ADScode: 2001A%26A...376.1039A</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="andersen1999" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[5]</td><td>Andersen, 1999, <em>IAUTB</em>, 23, p. 182 and 141 <a class="reference external" href="http://adsabs.harvard.edu/abs/1999IAUTB..23.....A">ADScode: 1999IAUTB..23.....A</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="barklem2002" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id7">[6]</a></td><td>Barklem et al., 2002, A&amp;A, 385, 951 <a class="reference external" href="http://adsabs.harvard.edu/abs/2002A%26A...385..951B">ADScode: 2002A%26A...385..951B</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="bessell1998" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[7]</td><td>Bessell et al., 1998, <em>A&amp;A</em>, 333, 231 <a class="reference external" href="http://adsabs.harvard.edu/abs/1998A%26A...333..231B">ADScode: 1998A%26A...333..231B</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="blackwell1977" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[8]</td><td>Blackwell &amp; Shallis, 1977, MNRAS, 180, 177 <a class="reference external" href="http://adsabs.harvard.edu/abs/1977MNRAS.180..177B">ADScode: 1977MNRAS.180..177B</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="blackwell1979" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[9]</td><td>Blackwell et al., 1979, MNRAS, 188, 847 <a class="reference external" href="http://adsabs.harvard.edu/abs/1979MNRAS.188..847B">ADScode: 1979MNRAS.188..847B</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="casagrande2010" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[10]</td><td>Casagrande et al., 2010, A&amp;A, 512, A54 <a class="reference external" href="http://adsabs.harvard.edu/abs/2010A%26A...512A..54C">ADScode: 2010A%26A...512A..54C</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="cox2000" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[11]</td><td>Cox, 2000, <em>Allen&#8217;s astrophysical quantities</em>, 4th ed. Publisher: New York: AIP Press; Springer <a class="reference external" href="http://adsabs.harvard.edu/abs/2000asqu.book.....C">ADScode: 2000asqu.book.....C</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="durrant1981" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[12]</td><td>Durrant, C.J., 1981, <em>Landolt Bornstein</em> vol VI/2A, (Neue Series: Springer-Verlag), p82</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="edvardsson1993" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[13]</td><td>Edvardsson et al., 1993, <em>A&amp;A</em>, 275, 101 <a class="reference external" href="http://adsabs.harvard.edu/abs/1993A%26A...275..101E">ADScode: 1993A%26A...275..101E</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="flower1996" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[14]</td><td>Flower, 1996, <em>ApJ</em>, 469, 355 <a class="reference external" href="http://adsabs.harvard.edu/abs/1996ApJ...469..355F">ADScode: 1996ApJ...469..355F</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="fuhrmann1993" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[15]</a></td><td>Fuhrmann et al., 1993, A&amp;A, 271, 451 <a class="reference external" href="http://adsabs.harvard.edu/abs/1993A%26A...271..451F">ADScode: 1993A%26A...271..451F</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="fuhrmann1994" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id6">[16]</a></td><td>Fuhrmann et al., 1994, A&amp;A, 285, 585 <a class="reference external" href="http://adsabs.harvard.edu/abs/1994A%26A...285..585F">ADScode: 1994A%26A...285..585F</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="gonzalezhernandez2009" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[17]</td><td>González Hernández &amp; Bonifacio, 2009, A&amp;A, 497, 497 <a class="reference external" href="http://adsabs.harvard.edu/abs/2009A%26A...497..497G">ADScode: 2009A%26A...497..497G</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="gratton2003" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[18]</td><td>Gratton et al., 2003, <em>A&amp;A</em>, 404, 187 <a class="reference external" href="http://adsabs.harvard.edu/abs/2003A%26A...404..187G">ADScode: 2003A%26A...404..187G</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="houdashelt2000" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[19]</td><td>Houdashelt et al., 2000, AJ, 119, 1448 <a class="reference external" href="http://adsabs.harvard.edu/abs/2000AJ....119.1448H">ADScode: 2000AJ....119.1448H</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="iau2015" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[20]</td><td><a class="reference external" href="http://www.iau.org/news/announcements/detail/ann15023/">IAU XXIX General Assembly Draft Resolutions Announcement</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="lang1991" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[21]</td><td>Lang, K.R., 1991, <em>Astrophysical Data: Planets and Stars</em> (Springer-Verlag), p103</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="masana2006" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[22]</td><td>Masana et al., 2006, A&amp;A, 450, 735 <a class="reference external" href="http://adsabs.harvard.edu/abs/2006A%26A...450..735M">ADScode: 2006A%26A...450..735M</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="onehag2009" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[23]</td><td>Önehag et al., 2009, A&amp;A, 498, 527 <a class="reference external" href="http://adsabs.harvard.edu/abs/2009A%26A...498..527O">ADScode: 2009A%26A...498..527O</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="ramirez2005" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[24]</td><td>Ramírez &amp; Meléndez, 2005, ApJ, 626, 465 <a class="reference external" href="http://adsabs.harvard.edu/abs/2005ApJ...626..465R">ADScode: 2005ApJ...626..465R</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="reddy2003" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[25]</td><td>Reddy et al., 2003, <em>MNRAS</em>, 340, 304 <a class="reference external" href="http://adsabs.harvard.edu/abs/2003MNRAS.340..304R">ADScode: 2003MNRAS.340..304R</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="santos2004" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[26]</a></td><td>Santos et al., 2004, A&amp;A, 415, 1153 <a class="reference external" href="http://adsabs.harvard.edu/abs/2004A%26A...415.1153S">ADScode: 2004A%26A...415.1153S</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="santos2005" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[27]</a></td><td>Santos et al., 2005, A&amp;A, 437, 1127 <a class="reference external" href="http://adsabs.harvard.edu/abs/2005A%26A...437.1127S">ADScode: 2005A%26A...437.1127S</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="schmidt-kaler1982" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[28]</td><td>Schmidt-Kaler, Th., 1982, in: <em>Landolt-Bornstein, Numerical Data and Functional Relationships in Science and Technology</em>, Vol. 2. (eds.) K. Schaifers &amp; H.H. Voigt Springer-Verlag, Berlin, p.451</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to naoctest-doc’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">naoctest-doc 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2019, naoctest-doc.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+    </div>
+  </body>
+</html>
