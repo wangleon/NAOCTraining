@@ -18,8 +18,19 @@ cd NAOCTraining
 
 安装
 
-```
+```bash
 sudo python3 setup.py install
 ```
 
+## 编译项目文档
 
+进入文档所在的目录
+
+```bash
+cd doc
+```
+
+编译html格式的文档
+```bash
+make html
+```
