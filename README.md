@@ -34,3 +34,7 @@ cd doc
 ```bash
 make html
 ```
+
+## 参见
+* [Python教程](https://github.com/TwoWater/Python)
+* [Git简介和常用命令](https://github.com/JourWon/git)
